@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D8CC6FF1D360CF300F14DE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8CC6FE1D360CF300F14DE2 /* main.m */; };
+		1D8CC7021D360CF300F14DE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8CC7011D360CF300F14DE2 /* AppDelegate.m */; };
+		1D8CC7051D360CF300F14DE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8CC7041D360CF300F14DE2 /* ViewController.m */; };
+		1D8CC7081D360CF300F14DE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D8CC7061D360CF300F14DE2 /* Main.storyboard */; };
+		1D8CC70A1D360CF300F14DE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D8CC7091D360CF300F14DE2 /* Assets.xcassets */; };
+		1D8CC70D1D360CF300F14DE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D8CC70B1D360CF300F14DE2 /* LaunchScreen.storyboard */; };
+		1D8CC7181D360CF300F14DE2 /* LRTableViewRollAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8CC7171D360CF300F14DE2 /* LRTableViewRollAnimationTests.m */; };
+		1D8CC7231D360CF300F14DE2 /* LRTableViewRollAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8CC7221D360CF300F14DE2 /* LRTableViewRollAnimationUITests.m */; };
+		1D8CC7331D360E7000F14DE2 /* LRAnimationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8CC7311D360E7000F14DE2 /* LRAnimationCell.m */; };
+		1D8CC7341D360E7000F14DE2 /* LRAnimationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D8CC7321D360E7000F14DE2 /* LRAnimationCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D8CC7141D360CF300F14DE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D8CC6F21D360CF300F14DE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D8CC6F91D360CF300F14DE2;
+			remoteInfo = LRTableViewRollAnimation;
+		};
+		1D8CC71F1D360CF300F14DE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D8CC6F21D360CF300F14DE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D8CC6F91D360CF300F14DE2;
+			remoteInfo = LRTableViewRollAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D8CC6FA1D360CF300F14DE2 /* LRTableViewRollAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LRTableViewRollAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D8CC6FE1D360CF300F14DE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D8CC7001D360CF300F14DE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D8CC7011D360CF300F14DE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D8CC7031D360CF300F14DE2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1D8CC7041D360CF300F14DE2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1D8CC7071D360CF300F14DE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D8CC7091D360CF300F14DE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D8CC70C1D360CF300F14DE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D8CC70E1D360CF300F14DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D8CC7131D360CF300F14DE2 /* LRTableViewRollAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LRTableViewRollAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D8CC7171D360CF300F14DE2 /* LRTableViewRollAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRTableViewRollAnimationTests.m; sourceTree = "<group>"; };
+		1D8CC7191D360CF300F14DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D8CC71E1D360CF300F14DE2 /* LRTableViewRollAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LRTableViewRollAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D8CC7221D360CF300F14DE2 /* LRTableViewRollAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRTableViewRollAnimationUITests.m; sourceTree = "<group>"; };
+		1D8CC7241D360CF300F14DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D8CC7301D360E7000F14DE2 /* LRAnimationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRAnimationCell.h; sourceTree = "<group>"; };
+		1D8CC7311D360E7000F14DE2 /* LRAnimationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRAnimationCell.m; sourceTree = "<group>"; };
+		1D8CC7321D360E7000F14DE2 /* LRAnimationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LRAnimationCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D8CC6F71D360CF300F14DE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8CC7101D360CF300F14DE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8CC71B1D360CF300F14DE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D8CC6F11D360CF300F14DE2 = {
+			isa = PBXGroup;
+			children = (
+				1D8CC6FC1D360CF300F14DE2 /* LRTableViewRollAnimation */,
+				1D8CC7161D360CF300F14DE2 /* LRTableViewRollAnimationTests */,
+				1D8CC7211D360CF300F14DE2 /* LRTableViewRollAnimationUITests */,
+				1D8CC6FB1D360CF300F14DE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D8CC6FB1D360CF300F14DE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CC6FA1D360CF300F14DE2 /* LRTableViewRollAnimation.app */,
+				1D8CC7131D360CF300F14DE2 /* LRTableViewRollAnimationTests.xctest */,
+				1D8CC71E1D360CF300F14DE2 /* LRTableViewRollAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D8CC6FC1D360CF300F14DE2 /* LRTableViewRollAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CC7001D360CF300F14DE2 /* AppDelegate.h */,
+				1D8CC7011D360CF300F14DE2 /* AppDelegate.m */,
+				1D8CC7031D360CF300F14DE2 /* ViewController.h */,
+				1D8CC7041D360CF300F14DE2 /* ViewController.m */,
+				1D8CC7301D360E7000F14DE2 /* LRAnimationCell.h */,
+				1D8CC7311D360E7000F14DE2 /* LRAnimationCell.m */,
+				1D8CC7321D360E7000F14DE2 /* LRAnimationCell.xib */,
+				1D8CC7061D360CF300F14DE2 /* Main.storyboard */,
+				1D8CC7091D360CF300F14DE2 /* Assets.xcassets */,
+				1D8CC70B1D360CF300F14DE2 /* LaunchScreen.storyboard */,
+				1D8CC70E1D360CF300F14DE2 /* Info.plist */,
+				1D8CC6FD1D360CF300F14DE2 /* Supporting Files */,
+			);
+			path = LRTableViewRollAnimation;
+			sourceTree = "<group>";
+		};
+		1D8CC6FD1D360CF300F14DE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CC6FE1D360CF300F14DE2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D8CC7161D360CF300F14DE2 /* LRTableViewRollAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CC7171D360CF300F14DE2 /* LRTableViewRollAnimationTests.m */,
+				1D8CC7191D360CF300F14DE2 /* Info.plist */,
+			);
+			path = LRTableViewRollAnimationTests;
+			sourceTree = "<group>";
+		};
+		1D8CC7211D360CF300F14DE2 /* LRTableViewRollAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CC7221D360CF300F14DE2 /* LRTableViewRollAnimationUITests.m */,
+				1D8CC7241D360CF300F14DE2 /* Info.plist */,
+			);
+			path = LRTableViewRollAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D8CC6F91D360CF300F14DE2 /* LRTableViewRollAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D8CC7271D360CF300F14DE2 /* Build configuration list for PBXNativeTarget "LRTableViewRollAnimation" */;
+			buildPhases = (
+				1D8CC6F61D360CF300F14DE2 /* Sources */,
+				1D8CC6F71D360CF300F14DE2 /* Frameworks */,
+				1D8CC6F81D360CF300F14DE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LRTableViewRollAnimation;
+			productName = LRTableViewRollAnimation;
+			productReference = 1D8CC6FA1D360CF300F14DE2 /* LRTableViewRollAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D8CC7121D360CF300F14DE2 /* LRTableViewRollAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D8CC72A1D360CF300F14DE2 /* Build configuration list for PBXNativeTarget "LRTableViewRollAnimationTests" */;
+			buildPhases = (
+				1D8CC70F1D360CF300F14DE2 /* Sources */,
+				1D8CC7101D360CF300F14DE2 /* Frameworks */,
+				1D8CC7111D360CF300F14DE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D8CC7151D360CF300F14DE2 /* PBXTargetDependency */,
+			);
+			name = LRTableViewRollAnimationTests;
+			productName = LRTableViewRollAnimationTests;
+			productReference = 1D8CC7131D360CF300F14DE2 /* LRTableViewRollAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1D8CC71D1D360CF300F14DE2 /* LRTableViewRollAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D8CC72D1D360CF300F14DE2 /* Build configuration list for PBXNativeTarget "LRTableViewRollAnimationUITests" */;
+			buildPhases = (
+				1D8CC71A1D360CF300F14DE2 /* Sources */,
+				1D8CC71B1D360CF300F14DE2 /* Frameworks */,
+				1D8CC71C1D360CF300F14DE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D8CC7201D360CF300F14DE2 /* PBXTargetDependency */,
+			);
+			name = LRTableViewRollAnimationUITests;
+			productName = LRTableViewRollAnimationUITests;
+			productReference = 1D8CC71E1D360CF300F14DE2 /* LRTableViewRollAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D8CC6F21D360CF300F14DE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = luran;
+				TargetAttributes = {
+					1D8CC6F91D360CF300F14DE2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					1D8CC7121D360CF300F14DE2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1D8CC6F91D360CF300F14DE2;
+					};
+					1D8CC71D1D360CF300F14DE2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1D8CC6F91D360CF300F14DE2;
+					};
+				};
+			};
+			buildConfigurationList = 1D8CC6F51D360CF300F14DE2 /* Build configuration list for PBXProject "LRTableViewRollAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D8CC6F11D360CF300F14DE2;
+			productRefGroup = 1D8CC6FB1D360CF300F14DE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D8CC6F91D360CF300F14DE2 /* LRTableViewRollAnimation */,
+				1D8CC7121D360CF300F14DE2 /* LRTableViewRollAnimationTests */,
+				1D8CC71D1D360CF300F14DE2 /* LRTableViewRollAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D8CC6F81D360CF300F14DE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8CC70D1D360CF300F14DE2 /* LaunchScreen.storyboard in Resources */,
+				1D8CC70A1D360CF300F14DE2 /* Assets.xcassets in Resources */,
+				1D8CC7341D360E7000F14DE2 /* LRAnimationCell.xib in Resources */,
+				1D8CC7081D360CF300F14DE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8CC7111D360CF300F14DE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8CC71C1D360CF300F14DE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D8CC6F61D360CF300F14DE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8CC7051D360CF300F14DE2 /* ViewController.m in Sources */,
+				1D8CC7021D360CF300F14DE2 /* AppDelegate.m in Sources */,
+				1D8CC7331D360E7000F14DE2 /* LRAnimationCell.m in Sources */,
+				1D8CC6FF1D360CF300F14DE2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8CC70F1D360CF300F14DE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8CC7181D360CF300F14DE2 /* LRTableViewRollAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8CC71A1D360CF300F14DE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8CC7231D360CF300F14DE2 /* LRTableViewRollAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D8CC7151D360CF300F14DE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D8CC6F91D360CF300F14DE2 /* LRTableViewRollAnimation */;
+			targetProxy = 1D8CC7141D360CF300F14DE2 /* PBXContainerItemProxy */;
+		};
+		1D8CC7201D360CF300F14DE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D8CC6F91D360CF300F14DE2 /* LRTableViewRollAnimation */;
+			targetProxy = 1D8CC71F1D360CF300F14DE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D8CC7061D360CF300F14DE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D8CC7071D360CF300F14DE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D8CC70B1D360CF300F14DE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D8CC70C1D360CF300F14DE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D8CC7251D360CF300F14DE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D8CC7261D360CF300F14DE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D8CC7281D360CF300F14DE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LRTableViewRollAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LRTableViewRollAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1D8CC7291D360CF300F14DE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LRTableViewRollAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LRTableViewRollAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1D8CC72B1D360CF300F14DE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LRTableViewRollAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LRTableViewRollAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LRTableViewRollAnimation.app/LRTableViewRollAnimation";
+			};
+			name = Debug;
+		};
+		1D8CC72C1D360CF300F14DE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LRTableViewRollAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LRTableViewRollAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LRTableViewRollAnimation.app/LRTableViewRollAnimation";
+			};
+			name = Release;
+		};
+		1D8CC72E1D360CF300F14DE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LRTableViewRollAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LRTableViewRollAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LRTableViewRollAnimation;
+			};
+			name = Debug;
+		};
+		1D8CC72F1D360CF300F14DE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LRTableViewRollAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LRTableViewRollAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LRTableViewRollAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D8CC6F51D360CF300F14DE2 /* Build configuration list for PBXProject "LRTableViewRollAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D8CC7251D360CF300F14DE2 /* Debug */,
+				1D8CC7261D360CF300F14DE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D8CC7271D360CF300F14DE2 /* Build configuration list for PBXNativeTarget "LRTableViewRollAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D8CC7281D360CF300F14DE2 /* Debug */,
+				1D8CC7291D360CF300F14DE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D8CC72A1D360CF300F14DE2 /* Build configuration list for PBXNativeTarget "LRTableViewRollAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D8CC72B1D360CF300F14DE2 /* Debug */,
+				1D8CC72C1D360CF300F14DE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D8CC72D1D360CF300F14DE2 /* Build configuration list for PBXNativeTarget "LRTableViewRollAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D8CC72E1D360CF300F14DE2 /* Debug */,
+				1D8CC72F1D360CF300F14DE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D8CC6F21D360CF300F14DE2 /* Project object */;
+}
