@@ -15,6 +15,8 @@
 
 #define LRGetImage(row) [UIImage imageNamed:[NSString stringWithFormat:@"%zd",row]]
 
+#define kAngle (90.0 * M_PI) / 180.0
+
 @interface ViewController ()
 <
 UITableViewDataSource,
@@ -79,18 +81,16 @@ UIScrollViewDelegate
     
     CGFloat y = scrollView.contentOffset.y;
     
-    CGFloat angle = (90.0 * M_PI) / 180.0;
-    
     if (y > _lastScrollOffset) {//用户往上拖动
         // x=0 y=0 左
         // x=1 y=0 -angle 右
-        _angle = -angle;
+        _angle = - kAngle;
         _cellAnchorPoint = CGPointMake(1, 0);
         
     } else {//用户往下拖动
         // x=0 y=1 -angle 左
         // x=1 y=1 右
-        _angle =  -angle;
+        _angle =  - kAngle;
         _cellAnchorPoint = CGPointMake(0, 1);
     }
     //存储最后的y值
