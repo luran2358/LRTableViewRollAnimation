@@ -12,7 +12,7 @@ static NSString * const LRCellId = @"LRAnimationCellId";
 
 @implementation LRAnimationCell
 
-+ (instancetype)perceicedErrorCellFromXib:(UITableView *)tableView cellAnchorPoint:(CGPoint)cellAnchorPoint angle:(CGFloat)angle;
++ (instancetype)cellFromXib:(UITableView *)tableView cellAnchorPoint:(CGPoint)cellAnchorPoint angle:(CGFloat)angle;
 {
     
     LRAnimationCell *cell = [tableView dequeueReusableCellWithIdentifier:LRCellId];

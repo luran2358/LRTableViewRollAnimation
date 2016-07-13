@@ -15,6 +15,6 @@
 /**
  *  Xib创建Cell
  */
-+ (instancetype)perceicedErrorCellFromXib:(UITableView *)tableView cellAnchorPoint:(CGPoint)cellAnchorPoint angle:(CGFloat)angle;
++ (instancetype)cellFromXib:(UITableView *)tableView cellAnchorPoint:(CGPoint)cellAnchorPoint angle:(CGFloat)angle;
 
 @end

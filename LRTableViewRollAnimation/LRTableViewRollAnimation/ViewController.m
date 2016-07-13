@@ -65,7 +65,7 @@ UIScrollViewDelegate
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
-    LRAnimationCell *cell = [LRAnimationCell perceicedErrorCellFromXib:tableView cellAnchorPoint:_cellAnchorPoint angle:_angle];
+    LRAnimationCell *cell = [LRAnimationCell cellFromXib:tableView cellAnchorPoint:_cellAnchorPoint angle:_angle];
     
     cell.backgroundImage.image = LRGetImage(indexPath.row + 1);
     
