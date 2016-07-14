@@ -5,8 +5,6 @@
 
 ![效果图2.gif](http://upload-images.jianshu.io/upload_images/2353624-eb04feb7d8c49aa8.gif?imageMogr2/auto-orient/strip)
 
-![效果图3.gif](http://upload-images.jianshu.io/upload_images/2353624-c74c6b1eff10b3d5.gif?imageMogr2/auto-orient/strip)
-
 ######动画的方向需要根据自己喜好去设置:
 ```
  x,y值为:  _cellAnchorPoint = CGPointMake(x, y);
