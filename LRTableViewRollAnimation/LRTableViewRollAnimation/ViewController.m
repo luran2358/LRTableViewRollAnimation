@@ -73,6 +73,28 @@ UIScrollViewDelegate
     return cell;
 }
 
+/**
+ * 此方法的效果是单独存在的, 可以拿出去单独使用
+ */
+#if 0
+- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    CATransform3D transform = CATransform3DIdentity;
+    transform = CATransform3DRotate(transform, 0, 0, 0, 1);//渐变
+    transform = CATransform3DTranslate(transform, -200, 0, 0);//左边水平移动
+    //        transform = CATransform3DScale(transform, 0, 0, 0);//由小变大
+    
+    cell.layer.transform = transform;
+    cell.layer.opacity = 0.0;
+    
+    [UIView animateWithDuration:0.6 animations:^{
+        cell.layer.transform = CATransform3DIdentity;
+        cell.layer.opacity = 1;
+    }];
+}
+#endif
+
 //滚动监听
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
