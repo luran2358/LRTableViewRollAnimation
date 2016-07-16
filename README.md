@@ -1,7 +1,8 @@
 # LRTableViewRollAnimation
 
-## 效果图:
+## 效果图1:
 ![效果图1.gif](http://upload-images.jianshu.io/upload_images/2353624-e40a9bd59f1f7da3.gif?imageMogr2/auto-orient/strip)
+## 效果图2:
 
 ![效果图2.gif](http://upload-images.jianshu.io/upload_images/2353624-eb04feb7d8c49aa8.gif?imageMogr2/auto-orient/strip)
 
