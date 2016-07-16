@@ -1,7 +1,9 @@
 # LRTableViewRollAnimation
 
-## 效果图:
-![效果图1.gif](http://upload-images.jianshu.io/upload_images/2353624-e40a9bd59f1f7da3.gif?imageMogr2/auto-orient/strip)
+## 效果图1:
+![效果图1.gif](http://upload-images.jianshu.io/upload_images/2353624-85b6690d697ff21e.gif?imageMogr2/auto-orient/strip)
+## 效果图2:
+![效果图2.gif](http://upload-images.jianshu.io/upload_images/2353624-14370cf2489ace69.gif?imageMogr2/auto-orient/strip)
 
 ######动画的方向需要根据自己喜好去设置:
 ```
